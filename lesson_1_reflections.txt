@@ -1,0 +1,13 @@
+using fc (file compare) to find differences in an old version of a file and new file version is a time saver
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+
+Save file versions in order to protect your work
+
+Create commits in logical places to save your work and make it easily recognizable which changes were made at which stages. In this way you can easy de-bug your work
