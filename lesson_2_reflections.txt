@@ -1,0 +1,4 @@
+Lesson 2 reflections.
+
+initialize a new repository with git init and then you can make sure you did it right with git status
+initializing a repository will make it compatiable with git and add "hidden" git files to track meta data and history
