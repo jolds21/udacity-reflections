@@ -4,3 +4,11 @@ initialize a new repository with git init and then you can make sure you did it 
 initializing a repository will make it compatiable with git and add "hidden" git files to track meta data and history
 
 use the staging area when creating commits to add multiple files to the commit and to make sure the changes you actually want will be the ones commited. Do so using git commit after adding files to the staging area through git add (file_name)
+
+use branches to make changes that you might not want to be on the master file. this could be for experimentation or language development.
+Through branches you can make changes but keep master files intact. do so through "git branch" 
+create a new branch with "git branch (new-branch-name)"
+
+then "git checkout" the branch you want to work on
+add your files with "git add"
+then "git commit"
